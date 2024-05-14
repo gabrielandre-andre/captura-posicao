@@ -46,6 +46,7 @@ document.querySelector(".button").addEventListener("click", function(){
         stsc = "CEO"
     }
 
+    j[i] = []
     j[i][0] = i
     j[i][1] = h
     j[i][2] = stsc
