@@ -1,0 +1,89 @@
+.container{
+    width: 300px;
+    height: 500px;
+    background-color: rgb(46, 46, 46);
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.center{
+    width: 300px;
+    height: 500px;
+    margin-left: 50vw;
+    transform: translate(-50%);
+
+    
+}
+
+#observacao{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 10px;
+    width: 180px;
+    height: 10px;
+    padding: 10px;
+    border-radius: 6px;
+    border-style: none;
+    box-shadow: none;
+    outline: none
+
+}
+
+#cto{
+    width: auto;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+#ceo{
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+p{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+
+    color: white;
+}
+
+.button{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    
+    width: 200px;
+    height: 40px;
+    border: none;
+    
+    background-color: rgb(41, 146, 102);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.container-container{
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+
+
+.emitir{
+    position: absolute;
+    top: 90vh;
+    left: 50vw;
+    transform: translate(-50%);
+
+    width: 150px;
+    height: 30px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 15px;
+    color: white;
+}
